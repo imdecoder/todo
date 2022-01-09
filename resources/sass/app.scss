@@ -1,0 +1,29 @@
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import 'bootstrap';
+@import 'theme';
+
+.bg-active {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+}
+
+.bg-passive {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity));
+}
+
+.copyright {
+    background: #0078D7;
+}
+
+.text-right {
+    text-align: right;
+}
+
+body {
+    background: #eee;
+}
